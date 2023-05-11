@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: rgb(243, 234, 211);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5%;
+    align-items: center;
+}
+
+span {
+    text-shadow: 0px 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: large;
+    color: black;
+    margin-left: 50px;
+}
+
+li {
+    display: inline-block;
+}
+
+img {
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 33px 23px 15px -1px rgb(252, 214, 152);
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10%;
+}
+
+.box1 {
+    line-height: 3rem;
+}
+
+.box1 h1 {
+    font-size: 3rem;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    border-color: rgb(252, 214, 152);
+    background-color: rgb(252, 214, 152);
+}
+
+.box2 {
+    padding: 50px 0px;
+}
+
+i {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.box1 li {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+abbr {
+    text-decoration: overline rgb(252, 214, 152);
+}
